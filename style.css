@@ -2,10 +2,12 @@
 body{
     margin: 0;
     background-color: #1F2937;
+    font-family: 'Roboto', sans-serif;
 }
 
 .contain-all{
     padding: 10px 225px 25px 225px;
+
 }
 
 
@@ -68,6 +70,18 @@ body{
     background-color: aliceblue;
     width:488.73px;
     height: 266.47px;
+}
+
+button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-color: #3882F6;
+    width: 115px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bolder;
+    border-radius: 10px;
+    border-style: solid;
 }
 
 
