@@ -1,12 +1,18 @@
+/* FIrst section */
 body{
     margin: 0;
+    background-color: #1F2937;
 }
+
+.contain-all{
+    padding: 10px 225px 25px 225px;
+}
+
 
 .header{
     max-height: 75px;
     display: flex;
     justify-content: space-between;
-    justify-content: space-around;
     align-items: center;
     background-color: #1F2937;
 }
@@ -29,5 +35,40 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #1F2937
+    background-color: #1F2937;
 }
+
+/* Second Section */
+
+.awesome{
+    padding-top: 75px;
+    display: flex;
+    align-items: center;
+    background-color: #1F2937;
+    
+}
+.text-container{
+    
+    background-color: #1F2937;
+    flex-basis: 50%;
+}
+.text-container h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+.text-container p{
+    font-size: 18px;
+    color: #E5E7EB;
+
+}
+
+.image-container{
+    flex-basis: 50%;
+    background-color: aliceblue;
+    width:488.73px;
+    height: 266.47px;
+}
+
+
+
