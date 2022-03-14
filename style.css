@@ -140,3 +140,36 @@ button{
     justify-content: flex-end;
     font-weight: bolder;
 }
+
+/* fourth section */
+
+.fourth-sec{
+    background-color: white;
+    justify-content: center;
+} 
+
+.text-double{
+    text-align: justify;
+}
+
+.last-container h3{
+    color: #E5E7EB;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.last-container p{
+    margin-top: 0px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.last-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 400px;
+    padding: 15px;
+    background-color: #3882F6;
+    margin: 50px 225px 50px 225px;
+    border-radius: 10px;
+}
