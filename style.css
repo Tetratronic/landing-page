@@ -170,6 +170,15 @@ button{
     gap: 400px;
     padding: 15px;
     background-color: #3882F6;
-    margin: 50px 225px 50px 225px;
+    margin: 100px 225px 100px 225px;
     border-radius: 10px;
+}
+
+/* footer*/
+
+footer{
+    text-align: center;
+    color: #F9FAF8;
+    padding: 15px;
+    background-color: #1F2937;
 }
