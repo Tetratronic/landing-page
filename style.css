@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+}
+
+.header{
+    max-height: 75px;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+#logo{
+    display: inline;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-items {
+    display: flex;
+    align-content: center;
+    color: #F9FAF8;
+}
+
+.header-items li{
+    height: 75px;
+    width: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937
+}
