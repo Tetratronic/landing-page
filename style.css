@@ -13,6 +13,7 @@ ul{
 
 a{
     color: azure;
+    text-decoration-color: #ffe6a7;
 }
 .logo a{
     color: azure;
@@ -21,7 +22,7 @@ a{
 
 .section-1{
     color: aliceblue;
-    background-color: #1F2937;
+    background-color: #6f1d1b;
     padding: 50px;
 }
 
@@ -77,7 +78,7 @@ button{
     font-weight: bold;
     font-size: 16px;
     padding:7px 24px;
-    background-color: #3882f6;
+    background-color: #bb9457;
     border: 0px;
     border-radius: 6px;
 }
@@ -119,7 +120,7 @@ button{
 .placeholder{
     width: 190px;
     height: 190px;
-    border: 3px solid rgb(236, 86, 86);
+    border: 3px solid #6f1d1b;
     border-radius: 15px;
 }
 
@@ -130,7 +131,7 @@ button{
     flex-direction: column;
     padding: 30px;
     align-items: center;
-    background-color: antiquewhite;
+    background-color:#ffe6a7;
 }
 
 .poetry{
@@ -156,7 +157,7 @@ button{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #3882f6;
+    background-color: #6f1d1b;
     border-radius: 20px;
 
 }
@@ -184,6 +185,6 @@ button{
 footer{
     display: flex;
     justify-content: center;
-    background-color: #1F2937;
+    background-color: #432818;
     color: aliceblue;
 }
