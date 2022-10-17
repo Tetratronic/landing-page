@@ -1,3 +1,8 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
 ul{
     margin: 0;
     padding: 0;
@@ -138,4 +143,47 @@ button{
     font-size: 36px;
     font-family: "Special Elite";
     align-self: flex-end;
+}
+
+/*section 3 end sect 4 starteh */
+
+.section-4{
+    padding: 100px 400px;
+}
+.card{
+    flex-shrink: 0;
+    padding: 50px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3882f6;
+    border-radius: 20px;
+
+}
+
+.card button{
+    border: 2px solid white;
+    font-size: 18px;
+}
+
+.card h2{
+    color: aliceblue;
+    font-family:"Trispace" ;
+    font-size: 28px;
+}
+
+.card p{
+    color: aliceblue;
+    font-family:"IBM Plex Mono" ;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/*s 4 end , footer time */
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: aliceblue;
 }
