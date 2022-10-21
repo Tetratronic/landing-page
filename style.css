@@ -162,14 +162,14 @@ button{
     padding: 150px;
 }
 .card{
-    margin: 50px 60px;
+    flex: 0 1 80%;
+    padding: 50px 60px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: #6f1d1b;
     border-radius: 20px;
-    flex-wrap: wrap;
-    gap: 50px;
+
 
 }
 
