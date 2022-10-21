@@ -1,4 +1,4 @@
-body{
+html,body{
     padding: 0;
     margin: 0;
 }
@@ -22,14 +22,17 @@ a{
 
 .section-1{
     color: aliceblue;
-    background-color: #6f1d1b;
-    padding: 50px;
+    background-color: #6f1d1b; 
+
 }
 
 .header{
+    padding: 30px 0px;
     display: flex;
     align-items: center;
     justify-content:space-around;
+    flex-wrap: wrap;
+
 }
 
 .header-links{
@@ -43,16 +46,14 @@ a{
 }
 
 .hero{
+    padding-bottom: 70px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 100px;
-    margin-bottom: 100px;
+
 }
 .text-left{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    margin: 100px 20px ;
     max-width: 600px;
     max-height: 300px;
 }
@@ -69,7 +70,7 @@ a{
 .paragraph-hero{
     font-family: "IBM Plex Mono";
     font-size: 15.6px;
-    padding-right: 10px;
+    padding-right: 25px;
 }
 
 button{
@@ -85,8 +86,12 @@ button{
 
 
 .image-placeholder{
-    width: 600px;
-    height: 300px;
+    padding-top:0% 20px; ;
+    flex: 1 1 95%;
+    margin: 100px 20px;
+    max-width: 700px;
+    max-height: 350px;
+    min-width: 320px;
     background-color: rgb(236, 86, 86);
 }
 
@@ -103,6 +108,7 @@ button{
     align-items: center;
 }
 .section-2 h1{
+    text-align: center;
     font-family: "Trispace";
     font-weight: bold;
     font-size: 36px;
@@ -116,11 +122,13 @@ button{
     padding: 50px;
     display: flex;
     gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .placeholder{
     width: 190px;
     height: 190px;
-    border: 3px solid #6f1d1b;
+    border: 3px solid #ffe6a7;
     border-radius: 15px;
 }
 
@@ -149,16 +157,18 @@ button{
 /*section 3 end sect 4 starteh */
 
 .section-4{
-    padding: 100px 400px;
+    display: flex;
+    justify-content: center;
+    padding: 150px;
 }
 .card{
-    flex-shrink: 0;
-    padding: 50px 50px;
+    padding: 50px 80px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: #6f1d1b;
     border-radius: 20px;
+    gap: 50px;
 
 }
 
