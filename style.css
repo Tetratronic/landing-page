@@ -162,7 +162,7 @@ button{
     padding: 150px;
 }
 .card{
-    padding: 50px 60px;
+    margin: 50px 60px;
     display: flex;
     align-items: center;
     justify-content: space-between;
