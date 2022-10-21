@@ -168,6 +168,7 @@ button{
     justify-content: space-between;
     background-color: #6f1d1b;
     border-radius: 20px;
+    flex-wrap: wrap;
     gap: 50px;
 
 }
